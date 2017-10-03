@@ -1,9 +1,9 @@
 <template>
     <v-container fluid class="pa-0">
         <v-container>
-            <h2>Anunturi</h2>
+            <h4>Anunturi</h4>
             <p>Niciun anunt</p>
-            <H2>Evaluare</H2>
+            <h4>Evaluare</h4>
             <code class="px-4 py-1">
 Evaluation
     • Final mark(N)
@@ -22,6 +22,14 @@ Evaluation
 
     The final mark is computed in accordance with ECTS
             </code>
+        </v-container>
+        <v-container>
+            <h4> Linkuri Utile</h4>
+            <ul>
+                <li><a href="https://my.vmware.com/en/web/vmware/free#desktop_end_user_computing/vmware_workstation_player/12_0">VMware Download</a></li>
+                <li><a href="https://www.ubuntu.com/download/desktop">Ubuntu ISO</a></li>
+                <li><a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">Putty</a></li>
+            </ul>
         </v-container>
     </v-container>
 </template>
