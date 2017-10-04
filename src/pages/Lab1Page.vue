@@ -564,6 +564,23 @@ void rewind( FILE *stream);
         <p>
             3. Scrieti un program in C care sa afiseze eroare daca nu a primit niciun argument, respectiv primul argument.
         </p>
+        <code>
+#include &lt;stdio.h&gt;
+
+int main(int argc, char* argv[])
+{
+if(argc<2)
+{
+printf("Nu ai introdus niciun parametru!");
+}
+else
+{
+printf("%s",argv[1]);
+}
+
+return 1;
+}
+        </code>
         <p>
             4. Sa se scrie un program C care primeste de la linia de comanda numele unui fisier si afiseaza numarul de aparitii pentru fiecare caracter ce apare in acel fisier.
         </p>
