@@ -203,10 +203,9 @@ int open(const char *pathname, int flags, mode_t mode);
                 </code>
                 <ul>
                     <li>pathname - calea catre fisier</li>
-                    <li>flags - optiuni de deschidere a fisierului (ex: O_RDWR - acces citire si scriere)</li>
+                    <li>flags - optiuni de deschidere a fisierului (ex: O_RDONLY, O_WRONLY, O_RDWR, O_APPEND, O_CREAT, O_TRUNC, O_EXCL)</li>
                     <li>
                         mode - specificarea explicita a permisiunilor asupra fisierului in cazul crearii acestuia (ex: S_IRWXU - utilizatorul owner are drepturi de citire, scriere si executie)
-                        O_RDONLY, O_WRONLY, O_RDWR, O_APPEND, O_CREAT, O_TRUNC, O_EXCL
                     </li>
                 </ul>
                 <p>Functia returneaza descriptorul asociat fisierului in caz de succes si -1 in caz de eroare</p>
@@ -654,6 +653,9 @@ return 0;
         <p>
             6. Acelasi lucru ca la (5.), doar ca directorul primit ca argument <b>poate contine subdirectoare</b>.
         </p>
+
+        <h4>Bibliografie</h4>
+        <p><a href="https://profs.info.uaic.ro/~eonica/rc/lab01.html">Emanuel Onica - Retele de Calculatoare 2017</a></p>
     </v-container>
 
 </template>

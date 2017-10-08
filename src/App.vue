@@ -52,7 +52,14 @@
           router: true,
           title: 'Laboratorul 1',
           icon: 'label',
-        }],
+        },
+        {
+            href: 'lab2',
+            router: true,
+            title: 'Laboratorul 2',
+            icon: 'label',
+            }
+        ],
       };
     }
   };

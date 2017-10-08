@@ -5,6 +5,7 @@ import VueAnalytics from 'vue-analytics'
 import App from './App.vue';
 import HomePage from './pages/HomePage.vue';
 import Lab1Page from './pages/Lab1Page.vue';
+import Lab2Page from './pages/Lab2Page.vue';
 
 const routes = [
   {
@@ -16,6 +17,11 @@ const routes = [
     path: '/lab1',
     name: 'lab1',
     component: Lab1Page,
+  },
+  {
+    path: '/lab2',
+    name: 'lab2',
+    component: Lab2Page,
   },
   {
     path: '*',
