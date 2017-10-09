@@ -560,7 +560,7 @@ void rewind( FILE *stream);
         <p>
             2. Sa se afiseze toti utilizatorii care au numele conturilor terminate in x.
         </p>
-        <!--<code>cat /etc/passwd | cut -f1 -d: | grep x$</code>-->
+        <code>cat /etc/passwd | cut -f1 -d: | grep x$</code>
         <p>
             3. Scrieti un program in C care sa afiseze eroare daca nu a primit niciun argument, respectiv primul argument.
         </p>
@@ -584,66 +584,66 @@ return 1;
         <p>
             4. Sa se scrie un program C care primeste de la linia de comanda numele unui fisier si afiseaza numarul de aparitii pentru fiecare caracter ce apare in acel fisier.
         </p>
-        <!--<code class="px-3">-->
-<!--#include &lt;stdio.h&gt;-->
-<!--#include &lt;stdlib.h&gt;-->
-<!--#include &lt;sys/types.h&gt;-->
-<!--#include &lt;sys/stat.h&gt;-->
-<!--#include &lt;fcntl.h&gt;-->
+        <code class="px-3">
+#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
+#include &lt;sys/types.h&gt;
+#include &lt;sys/stat.h&gt;
+#include &lt;fcntl.h&gt;
 
-<!--int main (int argc, char* argv[])-->
-<!--{-->
-<!--int file;-->
-<!--int count[256];-->
-<!--char ch;-->
-<!--int r;-->
-<!--int i;-->
+int main (int argc, char* argv[])
+{
+int file;
+int count[256];
+char ch;
+int r;
+int i;
 
-<!--if (argc == 1)-->
-<!--{-->
-<!--printf("Argumente insuficiente");-->
-<!--exit(1);-->
-<!--}-->
+if (argc == 1)
+{
+printf("Argumente insuficiente");
+exit(1);
+}
 
-<!--for (i=0; i<256; i++) {-->
-<!--count[i] = 0;-->
-<!--}-->
+for (i=0; i<256; i++) {
+count[i] = 0;
+}
 
-<!--file = open(argv[1], O_RDONLY);-->
+file = open(argv[1], O_RDONLY);
 
-<!--if (file == -1)-->
-<!--{-->
-<!--printf("Eroare la deschidere fisier");-->
-<!--exit(2);-->
-<!--}-->
+if (file == -1)
+{
+printf("Eroare la deschidere fisier");
+exit(2);
+}
 
-<!--while(1)-->
-<!--{-->
-<!--r = read(file, &ch, 1);-->
-<!--if (r == -1)-->
-<!--{-->
-<!--printf("Eroare la cititre");-->
-<!--exit(3);-->
-<!--}-->
+while(1)
+{
+r = read(file, &ch, 1);
+if (r == -1)
+{
+printf("Eroare la cititre");
+exit(3);
+}
 
-<!--if (r == 0) break;-->
+if (r == 0) break;
 
-<!--count[ch]++;-->
-<!--}-->
+count[ch]++;
+}
 
-<!--if (close(file) == -1)-->
-<!--{-->
-<!--printf("Eroare la inchidere");-->
-<!--exit(4);-->
-<!--}-->
+if (close(file) == -1)
+{
+printf("Eroare la inchidere");
+exit(4);
+}
 
-<!--for (i=0; i<256; i++)-->
-<!--if (count[i])-->
-<!--printf("Caracterul %c cu codul ASCII %d apare de %d ori in fisier.\n", i, i, count[i]);-->
+for (i=0; i<256; i++)
+if (count[i])
+printf("Caracterul %c cu codul ASCII %d apare de %d ori in fisier.\n", i, i, count[i]);
 
-<!--return 0;-->
-<!--}-->
-        <!--</code>-->
+return 0;
+}
+        </code>
         <br/>
         <br/>
         <h6>Studiu individual</h6>
