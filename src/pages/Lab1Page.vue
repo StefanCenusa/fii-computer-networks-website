@@ -560,7 +560,7 @@ void rewind( FILE *stream);
         <p>
             2. Sa se afiseze toti utilizatorii care au numele conturilor terminate in x.
         </p>
-        <code>cat /etc/passwd | cut -f1 -d: | grep x$</code>
+        <!--<code>cat /etc/passwd | cut -f1 -d: | grep x$</code>-->
         <p>
             3. Scrieti un program in C care sa afiseze eroare daca nu a primit niciun argument, respectiv primul argument.
         </p>
