@@ -55,6 +55,38 @@
             </li>
         </ul>
 
+        <code class="px-3">
++--------+
+| pid=7  |
+| ppid=4 |
+| bash   |
++--------+
+|
+| calls fork
+V
++--------+             +--------+
+| pid=7  |    forks    | pid=22 |
+| ppid=4 | ----------> | ppid=7 |
+| bash   |             | bash   |
++--------+             +--------+
+|                      |
+| waits for pid 22     | calls exec to run ls
+|                      V
+|                  +--------+
+|                  | pid=22 |
+|                  | ppid=7 |
+|                  | ls     |
+V                  +--------+
++--------+                 |
+| pid=7  |                 | exits
+| ppid=4 | <---------------+
+| bash   |
++--------+
+|
+| continues
+V
+        </code>
+
         <h4>Bibliografie</h4>
         <ul>
             <li><a href="http://www.csl.mtu.edu/cs4411.ck/www/NOTES/process/fork/create.html">fork</a></li>
