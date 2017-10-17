@@ -90,13 +90,19 @@ int main(void)
         </code>
         <ul>
             <li><a href="https://linux.die.net/man/2/dup">dup()</a></li>
-            <li><a href="https://linux.die.net/man/2/closep">close()</a></li>
+            <li><a href="https://linux.die.net/man/2/close">close()</a></li>
         </ul>
+
+        <h5 class="mt-3">- fifo</h5>
+        <p>
+            FIFO ("First In, First Out") is a named pipe.<br/>
+            A file that multiple processes can open() and read and write to.<br/>
+            Creation example: <code>mknod("myfifo", S_IFIFO | 0644 , 0);</code> -> check man: <a href="https://www.systutorials.com/docs/linux/man/2-mknod/">mknod()</a>
+        </p>
         <h4 class="mt-3">Bibliografie</h4>
         <ul>
-            <li>https://webdocs.cs.ualberta.ca/~tony/C379/C379Labs/Lab2/exec.html</li>
-            <li>http://beej.us/guide/bgipc/output/html/multipage/pipes.html</li>
-            <li>http://beej.us/guide/bgipc/output/html/multipage/fifos.html</li>
+            <li><a href="http://beej.us/guide/bgipc/output/html/multipage/pipes.html">pipes</a></li>
+            <li><a href="http://beej.us/guide/bgipc/output/html/multipage/fifos.html">fifos</a></li>
         </ul>
     </v-container>
 
