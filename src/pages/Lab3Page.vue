@@ -101,6 +101,12 @@ int main(void)
             A file that multiple processes can open() and read and write to.<br/>
             Creation example: <code>mknod("myfifo", S_IFIFO | 0644 , 0);</code> -> check man: <a href="https://www.systutorials.com/docs/linux/man/2-mknod/">mknod()</a>
         </p>
+
+        <h4 class="mt-3">Exercitii</h4>
+        <ul>
+            <li>cat prog.c | grep "include" > prog.c  , folosind pipe-uri si dup.</li>
+        </ul>
+
         <h4 class="mt-3">Bibliografie</h4>
         <ul>
             <li><a href="http://beej.us/guide/bgipc/output/html/multipage/pipes.html">pipes</a></li>
