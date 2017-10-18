@@ -56,6 +56,8 @@ int main(void)
             <a href="http://beej.us/guide/bgipc/examples/pipe2.c">fork & pipe example</a>
         </p>
 
+        <p class="my-3"><a href="https://linux.die.net/man/2/pipe">pipe ()</a></p>
+
         <h5 class="mt-3">- dup</h5>
 
         <p class="my-3">
