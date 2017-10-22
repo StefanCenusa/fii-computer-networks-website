@@ -7,6 +7,7 @@ import HomePage from './pages/HomePage.vue';
 import Lab1Page from './pages/Lab1Page.vue';
 import Lab2Page from './pages/Lab2Page.vue';
 import Lab3Page from './pages/Lab3Page.vue';
+import Lab4Page from './pages/Lab4Page.vue';
 
 const routes = [
   {
@@ -28,6 +29,11 @@ const routes = [
         path: '/lab3',
         name: 'lab3',
         component: Lab3Page,
+    },
+    {
+        path: '/lab4',
+        name: 'lab4',
+        component: Lab4Page,
     },
   {
     path: '*',
