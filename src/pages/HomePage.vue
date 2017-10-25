@@ -2,7 +2,9 @@
     <v-container fluid class="pa-0">
         <v-container>
             <h4>Anunturi</h4>
-            <p>Niciun anunt</p>
+            <ul>
+                <li><b>25/10/2017</b> - A fost afisata <a href="https://profs.info.uaic.ro/~computernetworks/cursullaboratorul.php#s4">Tema 1</a></li>
+            </ul>
             <h4>Evaluare</h4>
             <code class="px-4 py-1">
 Evaluation
