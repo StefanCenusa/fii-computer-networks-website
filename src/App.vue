@@ -76,6 +76,12 @@
                 router: true,
                 title: 'Laboratorul 5',
                 icon: 'label',
+            },
+            {
+                href: 'lab6',
+                router: true,
+                title: 'Laboratorul 6',
+                icon: 'label',
             }
         ],
       };
