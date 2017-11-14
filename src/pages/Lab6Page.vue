@@ -3,7 +3,7 @@
         <h3 class="my-3">Laboratorul 6</h3>
         <h5>Comunicare Server / Client</h5>
 
-        <img src="https://i.stack.imgur.com/YQ5ES.png">
+        <img style="background-color: white; padding: 5px" src="https://cezarmanea.github.io/interface/dist/assets/figA1_2.gif">
 
         <h6 class="mt-5"><a href="https://linux.die.net/man/2/socket">Socket</a></h6>
         <code class="px-3">
