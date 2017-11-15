@@ -4,7 +4,9 @@
         <h5>Comunicare Server / Client (continuare)</h5>
 
         <img style="background-color: white; padding: 5px" src="https://cezarmanea.github.io/interface/dist/assets/figA1_3.gif">
-<code class="px-3">
+        <br/>
+        <h6 class="mt-3">Server TCP concurent</h6>
+<code class="px-3 mt-2">
     /* servTCPIt.c - Exemplu de server TCP iterativ
     Asteapta un nume de la clienti; intoarce clientului sirul
     "Hello nume".
