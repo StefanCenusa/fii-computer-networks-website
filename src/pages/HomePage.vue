@@ -3,6 +3,7 @@
         <v-container>
             <h4>Anunturi</h4>
             <ul>
+                <li><b>6/12/2017</b> - Va rog completati <a href="https://goo.gl/forms/Mt86lD3AoSo8ecWS2">formularul</a></li>
                 <li><b>25/10/2017</b> - A fost afisata <a href="https://profs.info.uaic.ro/~computernetworks/cursullaboratorul.php#s4">Tema 1</a></li>
             </ul>
             <h4>Evaluare</h4>
