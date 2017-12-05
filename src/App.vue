@@ -94,6 +94,12 @@
                 router: true,
                 title: 'Laboratorul 9',
                 icon: 'label',
+            },
+            {
+                href: 'lab10',
+                router: true,
+                title: 'Laboratorul 10',
+                icon: 'label',
             }
         ],
       };
