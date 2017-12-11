@@ -25,6 +25,10 @@ Evaluation
 
     The final mark is computed in accordance with ECTS
             </code>
+            <h4>Contact</h4>
+            <p>
+                Mail cu subiectul [RC] la <strong>scenusa@info.uaic.ro</strong>
+            </p>
         </v-container>
         <v-container>
             <h4> Linkuri Utile</h4>
