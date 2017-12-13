@@ -13,6 +13,7 @@ import Lab6Page from './pages/Lab6Page.vue';
 import Lab7Page from './pages/Lab7Page.vue';
 import Lab9Page from './pages/Lab9Page.vue';
 import Lab10Page from './pages/Lab10Page.vue';
+import Lab11Page from './pages/Lab11Page.vue';
 
 const routes = [
   {
@@ -64,6 +65,11 @@ const routes = [
         path: '/lab10',
         name: 'lab10',
         component: Lab10Page,
+    },
+    {
+        path: '/lab11',
+        name: 'lab11',
+        component: Lab11Page,
     },
   {
     path: '*',
