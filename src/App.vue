@@ -112,6 +112,12 @@
                 router: true,
                 title: 'Laboratorul 12',
                 icon: 'label',
+            },
+            {
+                href: 'lab13',
+                router: true,
+                title: 'Laboratorul 13',
+                icon: 'label',
             }
         ],
       };
